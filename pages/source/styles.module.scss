@@ -1,0 +1,35 @@
+.mybackground {
+  background-color: #080823;
+  height: 100vh;
+  width: 100%;
+  float: left;
+
+  .logoHeader {
+    float: left;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    user-select: none;
+    img {
+      max-width: 400px;
+    }
+  }
+
+  .signature {
+    margin: 20px 0 0 0;
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #bebebe;
+    a {
+      color: #18a0d8;
+      text-decoration: none;
+      transition: 300ms;
+    }
+    a:hover {
+      color: #1977a0;
+      transition: 300ms;
+    }
+  }
+}
