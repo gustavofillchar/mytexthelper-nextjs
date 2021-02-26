@@ -2,8 +2,15 @@
   background-color: #080823;
   height: 100vh;
   width: 100%;
-  float: left;
+  display: flex;
 }
+
+@media (max-width: 768px) { 
+  .mybackground {
+    height: auto;
+  }
+}
+
 .mybackground .logoHeader {
   float: left;
   display: flex;
@@ -13,10 +20,10 @@
   user-select: none;
 }
 .mybackground .logoHeader img {
-  max-width: 400px;
+  max-width: 300px;
 }
 .mybackground .signature {
-  margin: 20px 0 0 0;
+  margin: 20px 0 50px 0;
   width: 100%;
   text-align: center;
   float: left;
